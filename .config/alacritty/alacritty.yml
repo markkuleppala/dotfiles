@@ -1,0 +1,91 @@
+env:
+  TERM: xterm-256color
+
+colors:
+  # Default colors
+  primary:
+    background: "0x1e282d"
+    foreground: "0xc4c7d1"
+
+  # Normal colors
+  normal:
+    black: "0x666666"
+    red: "0xeb606b"
+    green: "0xc3e88d"
+    yellow: "0xf7eb95"
+    blue: "0x80cbc4"
+    magenta: "0xff2f90"
+    cyan: "0xaeddff"
+    white: "0xffffff"
+
+  # Bright colors
+  bright:
+    black: "0xa1a1a1"
+    red: "0xeb606b"
+    green: "0xc3e88d"
+    yellow: "0xf7eb95"
+    blue: "0x7dc6bf"
+    magenta: "0x6c71c4"
+    cyan: "0x35434d"
+    white: "0xffffff"
+
+background_opacity: 0.98
+
+font:
+  normal:
+    family: "Meslo LG M for Powerline"
+    style: Regular
+  bold:
+    family: "Meslo LG M for Powerline"
+    style: Bold
+  italic:
+    family: "Meslo LG M for Powerline"
+    style: Italic
+  bold_italic:
+    family: "Meslo LG M for Powerline"
+    style: Bold Italic
+
+  # Point size
+  size: 11.0
+
+  offset:
+    x: 0
+    y: 0
+  glyph_offset:
+    x: 0
+    y: 0
+
+window:
+  padding:
+    x: 2
+    y: 2
+
+scrolling:
+  # Maximum number of lines in the scrollback buffer.
+  # Specifying '0' will disable scrolling.
+  history: 10000
+
+  # Number of lines the viewport will move for every line scrolled when
+  # scrollback is enabled (history > 0).
+  multiplier: 10
+
+# If `true`, bold text is drawn using the bright color variants.
+draw_bold_text_with_bright_colors: true
+
+selection:
+  semantic_escape_chars: ',│`|:"'' ()[]{}<>'
+  save_to_clipboard: true
+
+live_config_reload: true
+
+alt_send_esc: false
+
+key_bindings:
+  - { key: V, mods: Control|Shift, action: Paste }
+  - { key: C, mods: Control|Shift, action: Copy }
+  - { key: Key0, mods: Control, action: ResetFontSize }
+  - { key: Equals, mods: Control, action: IncreaseFontSize }
+  - { key: Add, mods: Control, action: IncreaseFontSize }
+  - { key: Subtract, mods: Control, action: DecreaseFontSize }
+  - { key: Minus, mods: Control, action: DecreaseFontSize }
+  - { key: N, mods: Control, action: SpawnNewInstance }

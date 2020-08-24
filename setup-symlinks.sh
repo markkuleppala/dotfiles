@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Create directories if do not exist yet
+[ -d ~/Library/Application\ Support/Code/User/ ] || mkdir ~/Library/Application\ Support/Code/User
+[ -d ~/Library/Application\ Support/Capture\ One/ ] || mkdir ~/Library/Application\ Support/Capture\ One
+
+# Visual Studio Code
+ln -s ~/VSCode/* ~/Library/Application\ Support/Code/User
