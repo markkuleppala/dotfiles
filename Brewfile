@@ -61,7 +61,6 @@ brew 'yarn'
 
 # python
 brew 'python'
-brew 'miniconda'
 
 # node
 brew 'node'
@@ -86,6 +85,7 @@ brew 'imagemagick'
 cask 'font-hasklig-nerd-font'
 cask 'font-hasklig-nerd-font-mono'
 cask 'font-menlo-for-powerline'
+cask 'font-fira-code'
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Applications
@@ -112,3 +112,4 @@ cask 'telegram'
 # dev
 cask 'docker'
 cask 'insomnia'
+cask 'miniconda'
