@@ -1,5 +1,11 @@
+##############################################
+# General
+##############################################
+
+# Open Alacritty
 cmd - return : /Applications/Alacritty.app/Contents/MacOS/alacritty
 
+# Restart yabai launch agent
 ctrl + alt + cmd - r : launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"
 
 ##############################################
