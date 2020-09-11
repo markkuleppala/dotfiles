@@ -1,6 +1,6 @@
-# Nvim Mach 2
+# NVCode
 
-![Nvim Mach 2 pic](./utils/images/nvim.png)
+![NVCode pic](./utils/images/nvim.png)
 
 ## Install in one command
 
@@ -14,7 +14,7 @@ bash <(curl -s https://raw.githubusercontent.com/ChristianChiarulli/nvim/master/
 
 ## Install Neovim
 
-- On Mac
+- Mac
 
   ```
   brew install neovim
@@ -62,15 +62,15 @@ export PATH=$HOME/.local/bin:$PATH
 
 ## Install clipboard support
 
-- On mac pbcopy should be builtin
+- On Mac pbcopy should be builtin
 
-- On Ubuntu
+- Ubuntu
 
   ```
   sudo apt install xsel
   ```
 
-- On Arch Linux
+- Arch
 
   ```
   sudo pacman -S xsel
@@ -124,6 +124,91 @@ Example:
   }
   ```
 
-## VSCode integration
+## For FAR to work
 
-We will be integrating with VSCode using [this](https://github.com/asvetliakov/vscode-neovim)
+```
+:UpdateRemotePlugins
+```
+
+## TabNine
+
+To use TabNine enter the following in a buffer:
+
+```
+TabNine::config
+```
+
+**NOTE** This extension can take up a ton of memory
+
+## Vim Gists
+
+To use **vim-gists** you will need to configure the following:
+
+```
+git config --global github.user <username>
+```
+
+## VSCodium & Neo Vim Extension
+
+[VSCodium](https://github.com/VSCodium/vscodium) contains build files to generate free release binaries of Microsoft's VS Code.
+
+You can install it on multiple platforms:
+
+- Mac
+
+  ```
+  brew cask install vscodium
+  ```
+
+- Arch
+
+  ```
+  yay -s vscodium-bin
+  ```
+
+- Snap
+
+  ```
+  snap install codium
+  ```
+
+[The Neo Vim Extension](https://github.com/asvetliakov/vscode-neovim) is available in the VSCode marketplace
+
+I recommend using this alongside the VSCode `which-key` extension
+
+Along with some of my config files you can find in `utils/vscode_config`
+
+## TODO
+
+- Better Documentation
+- Improve VSCode which-key config
+
+## CoC extensions to check out
+
+- coc-fzf
+- coc-stylelintplus
+- coc-floaterm
+- coc-actions
+- coc-bookmark
+
+## 0.5
+
+- native lsp
+- treesitter
+
+## LOW PRIORITY TODO
+
+If anyone reading this has any suggestions about implementing any of the following I will accept a PR, but these are not priority.
+
+- ale
+- multiple cursors
+- markdown table
+- spaceline (add colorscheme for mach2)
+- tpope/vim-dadbod
+- neovide
+- People asked about vimwiki I kinda hate it but maybe I'll add it
+- vimspector this is included but I don't plan on using it much
+  - can be used with jdb, pdb, gdb, etc...
+- later manually link pylance
+- resize with arrows in addition to meta
+- how to support meta key on for macOS?
