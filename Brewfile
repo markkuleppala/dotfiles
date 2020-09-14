@@ -94,6 +94,9 @@ cask 'font-fira-code'
 # terminal emulator
 cask 'alacritty'
 
+# editor
+cask 'visual-studio-code'
+
 # bar
 cask 'ubersicht'
 
