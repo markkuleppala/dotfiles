@@ -1,6 +1,7 @@
 # taps
 tap 'caskroom/cask'
 tap 'koekeishiya/formulae'
+tap 'cmacrae/formulae'
 tap 'homebrew/cask-fonts'
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -18,6 +19,8 @@ brew 'skhd'
 
 # shell
 brew 'zsh'
+brew 'zsh-syntax-highlighting'
+brew 'zsh-autosuggestions'
 
 # multiplexer
 brew 'tmux'
@@ -50,6 +53,7 @@ brew 'ripgrep'
 
 # git + hub extension
 brew 'git'
+brew 'git-delta'
 brew 'hub'
 
 # cloud
@@ -84,6 +88,7 @@ brew 'imagemagick'
 
 cask 'font-hasklig-nerd-font'
 cask 'font-hasklig-nerd-font-mono'
+cask 'font-jetbrains-mono-nerd-font'
 cask 'font-menlo-for-powerline'
 cask 'font-fira-code'
 
@@ -98,7 +103,7 @@ cask 'alacritty'
 cask 'visual-studio-code'
 
 # bar
-cask 'ubersicht'
+cask 'cmacrae/formulae/spacebar'
 
 # utils
 cask 'alfred'
