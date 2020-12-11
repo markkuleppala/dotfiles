@@ -1,4 +1,4 @@
-# If you come from bash you might have to change your $PATH.
+# If you come from bash you might have to change your $PATH.  
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 ZSH_DISABLE_COMPFIX=true
@@ -145,3 +145,6 @@ export PATH="$PATH:$HOME/.rvm/bin"
 # pyvenv
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
+
+# pipenv
+export PATH="$PATH:$HOME/Library/Python/3.7/bin"
