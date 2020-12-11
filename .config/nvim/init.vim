@@ -67,6 +67,8 @@ source $HOME/.config/nvim/plug-config/quickscope.vim
 " Add paths to node and python here
 if !empty(glob("~/.config/nvim/paths.vim"))
   source $HOME/.config/nvim/paths.vim
+  let g:python3_host_prog = expand("~/.pyenv/envs/neovim/bin/python3.8")
+  let g:node_host_prog = expand("~/.nvm/versions/node/v12.8.1/bin/neovim-node-host")
 endif
 
 " Better nav for omnicomplete TODO figure out why this is being overridden
