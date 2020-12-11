@@ -79,6 +79,9 @@ alt - y : yabai -m space --mirror y-axis
 # Mirror tree x-axis
 alt - x : yabai -m space --mirror x-axis
 
+# Toggle window split type
+alt - s : yabai -m window --toggle split
+
 ##############################################
 # Sizing: Shift + [Alt/Cmd] + [DIR]
 ##############################################
@@ -136,22 +139,20 @@ shift + alt - right  : yabai -m window --grid 1:2:1:0:1:1
 ##############################################
 # Tmux
 ##############################################
+
 ctrl - h [
-  *           : yabai -m window --focus west
-  "Alacritty" : if [ $(tmux display-message -p '#{pane_at_left}') -ne 1 ]; then tmux run "(tmux display-message -p '#{pane_title}' | grep -iq vim && tmux send-keys C-h) || tmux select-pane -L"; else yabai -m window --focus west || true; fi
+    * : yabai -m window --focus west
+    "Alacritty" ~
 ]
-
 ctrl - j [
-  *           : yabai -m window --focus south
-  "Alacritty" : if [ $(tmux display-message -p '#{pane_at_bottom}') -ne 1 ]; then tmux run "(tmux display-message -p '#{pane_title}' | grep -iq vim && tmux send-keys C-j) || tmux select-pane -D" ; else yabai -m window --focus south || true; fi
+    * : yabai -m window --focus south
+    "Alacritty" ~
 ]
-
 ctrl - k [
-  *           : yabai -m window --focus north
-  "Alacritty" : if [ $(tmux display-message -p '#{pane_at_top}') -ne 1 ]; then tmux run "(tmux display-message -p '#{pane_title}' | grep -iq vim && tmux send-keys C-k) || tmux select-pane -U"; else yabai -m window --focus north || true; fi
+    * : yabai -m window --focus north
+    "Alacritty" ~
 ]
-
 ctrl - l [
-  *           : yabai -m window --focus east
-  "Alacritty" : if [ $(tmux display-message -p '#{pane_at_right}') -ne 1 ]; then tmux run "(tmux display-message -p '#{pane_title}' | grep -iq vim && tmux send-keys C-l) || tmux select-pane -R"; else yabai -m window --focus east || true; fi
+    * : yabai -m window --focus east
+    "Alacritty" ~
 ]

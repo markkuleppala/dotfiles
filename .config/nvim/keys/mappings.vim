@@ -54,10 +54,31 @@ else
   inoremap <silent> <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
   " Better window navigation
-  nnoremap <C-h> <C-w>h
-  nnoremap <C-j> <C-w>j
-  nnoremap <C-k> <C-w>k
-  nnoremap <C-l> <C-w>l
+  " vim-tmux-yabai navigation
+  if exists('$TMUX')
+    function! TmuxOrSplitSwitch(wincmd, dir)
+      let previous_winnr = winnr()
+      silent! execute "wincmd " . a:wincmd
+      if previous_winnr == winnr()
+        silent execute "!vim-tmux-yabai-" . a:dir
+        redraw!
+      endif
+    endfunction
+
+    let previous_title = substitute(system("tmux display-message -p '#{pane_title}'"), '\n', '', '')
+    let &t_ti = "\<Esc>]2;vim\<Esc>\\" . &t_ti
+    let &t_te = "\<Esc>]2;". previous_title . "\<Esc>\\" . &t_te
+
+    nnoremap <silent> <C-h> :call TmuxOrSplitSwitch('h', 'west')<cr>
+    nnoremap <silent> <C-j> :call TmuxOrSplitSwitch('j', 'north')<cr>
+    nnoremap <silent> <C-k> :call TmuxOrSplitSwitch('k', 'south')<cr>
+    nnoremap <silent> <C-l> :call TmuxOrSplitSwitch('l', 'east')<cr>
+  else
+    map <silent> <C-h> <C-w>h
+    map <silent> <C-j> <C-w>j
+    map <silent> <C-k> <C-w>k
+    map <silent> <C-l> <C-w>l
+  endif
 
   " Terminal window navigation
   tnoremap <C-h> <C-\><C-N><C-w>h
