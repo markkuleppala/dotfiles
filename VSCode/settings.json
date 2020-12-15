@@ -873,7 +873,7 @@
   "terminal.integrated.shell.osx": "/bin/zsh",
   "terminal.integrated.shell.linux": "/bin/zsh",
   "terminal.external.osxExec": "Alacritty.app",
-  "terminal.integrated.fontFamily": "Meslo LG M for Powerline",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
   "editor.fontFamily": "'FiraCode-Retina'",
   "editor.fontLigatures": true,
   "editor.minimap.enabled": false,

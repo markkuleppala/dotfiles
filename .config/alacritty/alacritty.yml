@@ -40,17 +40,7 @@ background_opacity: 0.98
 
 font:
   normal:
-    family: "Meslo LG M for Powerline"
-    style: Regular
-  bold:
-    family: "Meslo LG M for Powerline"
-    style: Bold
-  italic:
-    family: "Meslo LG M for Powerline"
-    style: Italic
-  bold_italic:
-    family: "Meslo LG M for Powerline"
-    style: Bold Italic
+    family: "MesloLGS NF"
 
   # Point size
   size: 14.0

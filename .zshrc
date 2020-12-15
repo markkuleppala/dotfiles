@@ -20,8 +20,11 @@ COMPLETION_WAITING_DOTS="true"
 # Disable zsh directory permission checks
 ZSH_DISABLE_COMPFIX=true
 
+# Fiz zsh
+unsetopt BG_NICE
+
 # Oh-my-zsh plugins
-plugins=(git vi-mode xcode tmux common-aliases brew fancy-ctrl-z zsh-z)
+plugins=(git vi-mode xcode tmux common-aliases brew fancy-ctrl-z zsh-wakatime zsh-z)
 
 # Enable oh-my-zsh
 source $ZSH/oh-my-zsh.sh

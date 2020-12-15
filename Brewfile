@@ -83,10 +83,9 @@ brew 'imagemagick'
 # Fonts
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-cask 'font-hasklig-nerd-font'
-cask 'font-hasklig-nerd-font-mono'
+cask 'font-hasklug-nerd-font-mono'
 cask 'font-jetbrains-mono-nerd-font'
-cask 'font-menlo-for-powerline'
+cask 'font-meslo-lg-nerd-font'
 cask 'font-fira-code'
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,6 +1,7 @@
-#!/bin/bash
+#!/bin/zsh
 
 brew bundle
-bash bin/install-code-extensions.sh
-bash setup-symlinks.sh
-bash setup-macos.sh
+./bin/install-code-extensions.sh
+./bin/install-zsh-plugins.sh
+./setup-symlinks.sh
+./setup-macos.sh
