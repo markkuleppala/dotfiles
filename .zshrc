@@ -21,7 +21,7 @@ COMPLETION_WAITING_DOTS="true"
 ZSH_DISABLE_COMPFIX=true
 
 # Oh-my-zsh plugins
-plugins=(git vi-mode xcode tmux common-aliases brew fancy-ctrl-z z)
+plugins=(git vi-mode xcode tmux common-aliases brew fancy-ctrl-z zsh-z)
 
 # Enable oh-my-zsh
 source $ZSH/oh-my-zsh.sh

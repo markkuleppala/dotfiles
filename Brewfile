@@ -30,9 +30,6 @@ brew 'vim'
 brew 'neovim'
 brew 'editorconfig'
 
-# directory jumper
-brew 'z'
-
 # file browser
 brew 'ranger'
 
