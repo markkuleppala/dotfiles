@@ -18,5 +18,5 @@ export PATH="$PATH:$HOME/.rvm/bin"
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 
-# pipenv
-export PATH="$PATH:$HOME/Library/Python/3.7/bin"
+# Python packages
+export PATH="$PATH:$HOME/Library/Python/3.9/bin"
