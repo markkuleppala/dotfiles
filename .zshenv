@@ -1,4 +1,3 @@
-
 # Functions
 source ~/.shell/functions.sh
 

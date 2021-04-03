@@ -13,6 +13,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 # pyvenv
 export PATH="$HOME/.pyenv/bin:$PATH"
@@ -20,3 +21,6 @@ eval "$(pyenv init -)"
 
 # Python packages
 export PATH="$PATH:$HOME/Library/Python/3.9/bin"
+
+# nvcode https://github.com/ChristianChiarulli/nvcode
+export PATH="$PATH:/Users/$USER/.config/nvim/utils/bin"
