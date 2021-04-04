@@ -8,6 +8,11 @@ shell:
     - -c
     - "tmux"
 
+cursor:
+  style:
+    blinking: Always
+    blink_interval: 500
+
 colors:
   # Default colors
   primary:
