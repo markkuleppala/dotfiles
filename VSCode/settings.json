@@ -980,14 +980,14 @@
   "kite.showWelcomeNotificationOnStartup": false,
   "python.terminal.activateEnvironment": false,
   "editor.cursorBlinking": "solid",
-  "editor.fontFamily": "JetBrainsMono Nerd Font, Hack, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "'FiraCode-Retina', Hack, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
   "files.exclude": {
     "**/.classpath": true,
     "**/.project": true,
     "**/.settings": true,
     "**/.factorypath": true
   },
-  "terminal.external.osxExec": "Alacritty.app",
   "editor.minimap.enabled": false,
   "workbench.activityBar.visible": true,
   "window.menuBarVisibility": "toggle",
@@ -995,7 +995,9 @@
   "python.condaPath": "$HOME/.miniconda/bin/conda",
   "python.formatting.provider": "black",
   "python.insidersChannel": "off",
+  "terminal.external.osxExec": "Alacritty.app",
   "terminal.integrated.shell.linux": "/bin/zsh",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
   "terminal.external.linuxExec": "/usr/bin/alacritty",
   "code-runner.executorMap": {
     "python": "$pythonPath $fileName",
@@ -1025,11 +1027,13 @@
   "workbench.startupEditor": "newUntitledFile",
   "python.showStartPage": false,
   "editor.snippetSuggestions": "bottom",
-  "window.zoomLevel": -1,
   "workbench.editorAssociations": [
     {
       "viewType": "jupyter.notebook.ipynb",
       "filenamePattern": "*.ipynb"
     }
-  ]
+  ],
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
