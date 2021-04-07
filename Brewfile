@@ -114,6 +114,9 @@ cask 'slack'
 cask 'discord'
 cask 'telegram'
 
+# password manager
+cask 'keeweb'
+
 # dev
 cask 'docker'
 cask 'insomnia'
