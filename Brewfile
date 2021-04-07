@@ -1,8 +1,7 @@
 # taps
-tap 'caskroom/cask'
 tap 'koekeishiya/formulae'
-tap 'cmacrae/formulae'
 tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-versions'
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # CLI
@@ -78,12 +77,14 @@ brew 'jq'
 brew 'rclone'
 brew 'exiftool'
 brew 'imagemagick'
+brew 'trash'
+brew 'direnv'
+brew 'pyenv'
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Fonts
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-cask 'font-hasklug-nerd-font-mono'
 cask 'font-jetbrains-mono-nerd-font'
 cask 'font-meslo-lg-nerd-font'
 cask 'font-fira-code'
@@ -99,7 +100,7 @@ cask 'alacritty'
 cask 'visual-studio-code'
 
 # bar
-cask 'cmacrae/formulae/spacebar'
+brew 'cmacrae/formulae/spacebar'
 
 # utils
 cask 'alfred'
