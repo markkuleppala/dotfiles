@@ -1,0 +1,21 @@
+[user]
+	  name = Timo Riski
+	  email = 25483483+rriski@users.noreply.github.com
+    username = rriski
+
+[core]
+  excludesfile = ~/.gitignore
+  pager = delta
+	autocrlf = input
+
+[pull]
+    rebase = true
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    side-by-side = true
+    line-numbers-left-format = ""
+    line-numbers-right-format = "│ "
+    syntax-theme = Nord
