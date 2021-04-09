@@ -62,6 +62,9 @@ defaults write NSGlobalDomain InitialKeyRepeat -int 15
 # Finder > Preferences > Show all filename extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
+# Finder > Preferences > Show hidden files
+defaults write com.apple.finder AppleShowAllFiles true
+
 # Finder > Preferences > Show wraning before changing an extension
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 
