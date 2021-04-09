@@ -970,14 +970,9 @@
   "workbench.editor.showTabs": true,
   "gitlens.hovers.currentLine.over": "line",
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "python.pythonPath": "/Users/timo/.pyenv/shims/python3",
-  "java.semanticHighlighting.enabled": true,
   "workbench.list.automaticKeyboardNavigation": false,
   "python.languageServer": "Pylance",
-  "editor.scrollbar.horizontal": "hidden",
-  "editor.scrollbar.vertical": "hidden",
-  "kite.showWelcomeNotificationOnStartup": false,
   "python.terminal.activateEnvironment": false,
   "editor.cursorBlinking": "solid",
   "editor.fontFamily": "'FiraCode-Retina', Hack, Menlo, Monaco, 'Courier New', monospace",
@@ -990,20 +985,15 @@
   },
   "editor.minimap.enabled": false,
   "workbench.activityBar.visible": true,
-  "window.menuBarVisibility": "toggle",
-  "python.dataScience.alwaysTrustNotebooks": true,
+  "jupyter.alwaysTrustNotebooks": true,
   "python.condaPath": "$HOME/.miniconda/bin/conda",
   "python.formatting.provider": "black",
   "python.insidersChannel": "off",
   "terminal.external.osxExec": "Alacritty.app",
   "terminal.integrated.shell.linux": "/bin/zsh",
   "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.cursorBlinking": true,
   "terminal.external.linuxExec": "/usr/bin/alacritty",
-  "code-runner.executorMap": {
-    "python": "$pythonPath $fileName",
-    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
-    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
-  },
   "workbench.colorCustomizations": {
     "[Default Dark+]": {
       "statusBar.background": "#2E2E2E",
@@ -1014,13 +1004,11 @@
       "tab.inactiveBackground": "#2E2E2E"
     }
   },
-  "gitlens.advanced.telemetry.enabled": false,
   "gitlens.currentLine.enabled": false,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "emmet.showSuggestionsAsSnippets": true,
-  "material-icon-theme.showWelcomeMessage": false,
   "gitlens.codeLens.enabled": false,
   "workbench.iconTheme": "material-icon-theme",
   "git.autofetch": true,
@@ -1035,5 +1023,7 @@
   ],
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false
 }
