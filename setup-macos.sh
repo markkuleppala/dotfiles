@@ -17,6 +17,9 @@ defaults -currentHost write com.apple.screensaver idleTime -int 0
 # System Preferences > Dock > Size:
 defaults write com.apple.dock tilesize -int 36
 
+# System Preferences > Dock > Position:
+defaults write com.apple.dock orientation right
+
 # System Preferences > Dock > Magnification:
 defaults write com.apple.dock magnification -bool true
 
@@ -26,7 +29,7 @@ defaults write com.apple.dock largesize -int 54
 # System Preferences > Dock > Minimize windows using: Scale effect
 defaults write com.apple.dock mineffect -string "scale"
 
-# System Preferences > Dock > Minimize windows into application iconﬂlh¬ﬂ
+# System Preferences > Dock > Minimize windows into application icon
 defaults write com.apple.dock minimize-to-application -bool true
 
 # System Preferences > Dock > Automatically hide and show the Dock:
@@ -40,6 +43,10 @@ defaults write com.apple.dock autohide-delay -float 0
 
 # System Preferences > Dock > Show indicators for open applications
 defaults write com.apple.dock show-process-indicators -bool true
+
+# System Preferences > Dock > Show only active apps
+defaults write com.apple.dock static-only -bool true;
+
 
 #----------------------------------------------------------------------------
 
@@ -73,6 +80,10 @@ defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 
 # Finder > View > Show Path Bar
 defaults write com.apple.finder ShowPathbar -bool true
+
+#----------------------------------------------------------------------------
+# VSCode > Correct press and hold behaviour for vim
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 
 #----------------------------------------------------------------------------
 
