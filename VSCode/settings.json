@@ -1010,7 +1010,6 @@
   },
   "emmet.showSuggestionsAsSnippets": true,
   "gitlens.codeLens.enabled": false,
-  "workbench.iconTheme": "material-icon-theme",
   "git.autofetch": true,
   "workbench.startupEditor": "newUntitledFile",
   "python.showStartPage": false,
