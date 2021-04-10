@@ -24,3 +24,6 @@ export PATH="$PATH:$HOME/Library/Python/3.9/bin"
 
 # nvcode https://github.com/ChristianChiarulli/nvcode
 export PATH="$PATH:/Users/$USER/.config/nvim/utils/bin"
+
+# keytimeout for exiting vim mode in tmux
+export KEYTIMEOUT=20
