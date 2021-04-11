@@ -2,6 +2,9 @@ vim.cmd('set iskeyword+=-') -- treat dash separated words as a word text object"
 vim.cmd('set shortmess+=c') -- Don't pass messages to |ins-completion-menu|.
 vim.cmd('set inccommand=split') -- Make substitution work in realtime
 vim.o.hidden = O.hidden_files -- Required to keep multiple buffers open multiple buffers
+vim.o.title = true
+-- vim.o.titlestring = "filename nvim"
+vim.o.titlestring="%<%F%=%l/%L - nvim"
 vim.wo.wrap = O.wrap_lines -- Display long lines as just one line
 vim.cmd('set whichwrap+=<,>,[,],h,l') -- move to next line with theses keys
 vim.cmd('syntax on') -- move to next line with theses keys
@@ -30,4 +33,9 @@ vim.wo.signcolumn = "yes" -- Always show the signcolumn, otherwise it would shif
 vim.o.updatetime = 300 -- Faster completion
 vim.o.timeoutlen = 100 -- By default timeoutlen is 1000 ms
 vim.o.clipboard = "unnamedplus" -- Copy paste between vim and everything else
-vim.o.guifont = "JetBrainsMono\\ Nerd\\ Font\\ Mono:h18"
+-- vim.o.guifont = "JetBrainsMono\\ Nerd\\ Font\\ Mono:h18"
+-- vim.o.guifont = "Hack\\ Nerd\\ Font\\ Mono"
+-- vim.o.guifont = "SauceCodePro Nerd Font:h17"
+vim.o.guifont = "FiraCode Nerd Font:h17"
+
+-- vim.o.guifont = "JetBrains\\ Mono\\ Regular\\ Nerd\\ Font\\ Complete"
