@@ -66,6 +66,12 @@ brew 'python'
 brew 'node'
 brew 'nvm'
 
+# postgresql
+brew 'postgresql'
+
+# redis
+brew 'redis'
+
 # terraform
 brew 'terraform'
 brew 'tflint'
@@ -80,6 +86,7 @@ brew 'imagemagick'
 brew 'trash'
 brew 'direnv'
 brew 'pyenv'
+brew 'reattach-to-user-namespace' # copying in tmux vi-mode. See tmux.conf
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Fonts
