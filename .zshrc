@@ -24,7 +24,7 @@ ZSH_DISABLE_COMPFIX=true
 unsetopt BG_NICE
 
 # Oh-my-zsh plugins
-plugins=(git vi-mode xcode tmux common-aliases brew fancy-ctrl-z zsh-wakatime zsh-z)
+plugins=(git vi-mode fzf xcode tmux common-aliases brew fancy-ctrl-z zsh-wakatime zsh-z)
 
 # Enable oh-my-zsh
 source $ZSH/oh-my-zsh.sh
@@ -91,15 +91,6 @@ compdef _directories mcd
 
 # Use Shift-Tab to move through the completion menu backwards
 bindkey '^[[Z' reverse-menu-complete
-
-# FZF Auto-completion
-[[ $- == *i* ]] && source "$(brew --prefix)/opt/fzf/shell/completion.zsh" 2> /dev/null
-
-# FZF Key bindings
-source "$(brew --prefix)/opt/fzf/shell/key-bindings.zsh"
-
-# FZF Settings
-export FZF_DEFAULT_OPTS="--height 90% --layout=reverse --color 'bg+:-1'"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
