@@ -27,3 +27,4 @@ export PATH="$PATH:/Users/$USER/.config/nvim/utils/bin"
 
 # keytimeout for exiting vim mode in tmux
 export KEYTIMEOUT=20
+
