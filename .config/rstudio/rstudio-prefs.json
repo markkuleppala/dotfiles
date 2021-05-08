@@ -1,0 +1,5 @@
+{
+    "initial_working_directory": "~",
+    "style_diagnostics": true,
+    "posix_terminal_shell": "bash"
+}
