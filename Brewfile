@@ -87,6 +87,7 @@ brew 'trash'
 brew 'direnv'
 brew 'pyenv'
 brew 'reattach-to-user-namespace' # copying in tmux vi-mode. See tmux.conf
+brew 'tree'
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Fonts
@@ -95,6 +96,7 @@ brew 'reattach-to-user-namespace' # copying in tmux vi-mode. See tmux.conf
 cask 'font-jetbrains-mono-nerd-font'
 cask 'font-meslo-lg-nerd-font'
 cask 'font-fira-code'
+cask 'font-fontawesome' # spacbar icons
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Applications
