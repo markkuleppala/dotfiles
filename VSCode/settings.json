@@ -1,8 +1,8 @@
 {
   "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
   "vscode-neovim.neovimExecutablePaths.linux": "/usr/local/bin/nvim",
-  "vscode-neovim.neovimInitVimPaths.darwin": "$HOME/.config/nvim/vimscript/nv-vscode/init.vim",
-  "vscode-neovim.neovimInitVimPaths.linux": "$HOME/.config/nvim/vimscript/nv-vscode/init.vim",
+  "vscode-neovim.neovimInitVimPaths.darwin": "$HOME/.config/nvim/vimscript/lv-vscode/init.vim",
+  "vscode-neovim.neovimInitVimPaths.linux": "$HOME/.config/nvim/vimscript/lv-vscode/init.vim",
   "whichkey.sortOrder": "alphabetically",
   "whichkey.delay": 0,
   "whichkey.bindings": [
@@ -1004,7 +1004,6 @@
       "tab.inactiveBackground": "#2E2E2E"
     }
   },
-  "gitlens.currentLine.enabled": false,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -1026,5 +1025,8 @@
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
   "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false
+  "explorer.confirmDragAndDrop": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
 }
