@@ -1004,23 +1004,14 @@
       "tab.inactiveBackground": "#2E2E2E"
     }
   },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "emmet.showSuggestionsAsSnippets": true,
   "gitlens.codeLens.enabled": false,
   "git.autofetch": true,
   "workbench.startupEditor": "newUntitledFile",
   "python.showStartPage": false,
   "editor.snippetSuggestions": "bottom",
-  "workbench.editorAssociations": [
-    {
-      "viewType": "jupyter.notebook.ipynb",
-      "filenamePattern": "*.ipynb"
-    }
-  ],
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
   },
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
@@ -1029,4 +1020,11 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": -1,
 }

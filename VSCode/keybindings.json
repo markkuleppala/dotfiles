@@ -174,5 +174,25 @@
     "key": "space",
     "command": "whichkey.show",
     "when": "neovim.mode != 'insert' && !inputFocus"
+  },
+  {
+    "key": "alt+cmd+[",
+    "command": "editor.action.inlineSuggest.showPrevious",
+    "when": "!editorReadonly"
+  },
+  {
+    "key": "alt+[",
+    "command": "-editor.action.inlineSuggest.showPrevious",
+    "when": "!editorReadonly"
+  },
+  {
+    "key": "alt+cmd+]",
+    "command": "editor.action.inlineSuggest.showNext",
+    "when": "!editorReadonly"
+  },
+  {
+    "key": "alt+]",
+    "command": "-editor.action.inlineSuggest.showNext",
+    "when": "!editorReadonly"
   }
 ]
