@@ -5,7 +5,7 @@
 [ -d ~/Library/Application\ Support/Capture\ One/ ] || mkdir ~/Library/Application\ Support/Capture\ One
 
 # Visual Studio Code
-ln -s ~/VSCode/* ~/Library/Application\ Support/Code/User
+ln -sf ~/VSCode/* ~/Library/Application\ Support/Code/User
 
 # Keyboard layout
 sudo ln -sf ~/Finnish\ \(Programming\).keylayout /Library/Keyboard\ Layouts/Finnish\ \(Programming\).keylayout
