@@ -72,6 +72,9 @@ brew 'postgresql'
 # redis
 brew 'redis'
 
+# ansible
+brew 'ansible'
+
 # terraform
 brew 'terraform'
 brew 'tflint'
