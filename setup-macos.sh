@@ -7,6 +7,9 @@ defaults write -globalDomain AppleScrollerPagingBehavior -bool true
 # System Preferences > General > Sidebar icon size: Medium
 defaults write -globalDomain NSTableViewDefaultSizeMode -int 2
 
+# General settings, disable dont smoothing
+defaults -currentHost write -g AppleFontSmoothing -int 0
+
 #----------------------------------------------------------------------------
 
 # System Preferences > Desktop & Screen Saver > Start after: Never
@@ -58,10 +61,10 @@ defaults write com.apple.dock dashboard-in-overlay -bool true
 
 #----------------------------------------------------------------------------
 
-# System Preferences > Keyboard >
+# System Preferences > Keyboard
 defaults write NSGlobalDomain KeyRepeat -int 2
 
-# System Preferences > Keyboard >
+# System Preferences > Keyboard
 defaults write NSGlobalDomain InitialKeyRepeat -int 15
 
 #----------------------------------------------------------------------------
