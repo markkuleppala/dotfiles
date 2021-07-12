@@ -116,6 +116,7 @@ brew 'cmacrae/formulae/spacebar'
 
 # utils
 cask 'alfred'
+cask 'ukulele'
 
 # browsers
 cask 'google-chrome'
