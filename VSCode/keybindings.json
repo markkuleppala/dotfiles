@@ -128,22 +128,27 @@
     "command": "workbench.action.focusActiveEditorGroup"
   },
   {
-    "key": "alt+k",
+    "key": "ctrl+k",
     "command": "workbench.action.focusActiveEditorGroup",
     "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+t",
+    "command": "workbench.action.terminal.focus",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "-editor.action.insertLineAfter",
+    "when": "editorTextFocus && neovim.ctrlKeysInsert && !neovim.recording && neovim.mode == 'insert'"
   },
   {
     "key": "alt+j",
     "command": "workbench.action.terminal.focus",
     "when": "!terminalFocus"
   },
- {
-    "key": "ctrl+j",
-    "command": "-editor.action.insertLineAfter",
-    "when": "editorTextFocus && neovim.ctrlKeysInsert && !neovim.recording && neovim.mode == 'insert'"
-  },
   {
-    "key": "alt+shift+t",
+    "key": "ctrl+shift+t",
     "command": "workbench.action.togglePanel"
   },
   {
@@ -176,23 +181,18 @@
     "when": "neovim.mode != 'insert' && !inputFocus"
   },
   {
-    "key": "alt+cmd+[",
-    "command": "editor.action.inlineSuggest.showPrevious",
-    "when": "!editorReadonly"
+    "key": "ctrl+f",
+    "command": "-cursorRight",
+    "when": "textInputFocus"
   },
   {
-    "key": "alt+[",
-    "command": "-editor.action.inlineSuggest.showPrevious",
-    "when": "!editorReadonly"
+    "key": "tab",
+    "command": "vscode-neovim.send",
+    "when": "editorTextFocus && neovim.init && neovim.mode != 'cmdline_normal' && neovim.mode != 'insert'"
   },
   {
-    "key": "alt+cmd+]",
-    "command": "editor.action.inlineSuggest.showNext",
-    "when": "!editorReadonly"
-  },
-  {
-    "key": "alt+]",
-    "command": "-editor.action.inlineSuggest.showNext",
-    "when": "!editorReadonly"
+    "key": "tab",
+    "command": "-vscode-neovim.send",
+    "when": "editorTextFocus && neovim.init && neovim.mode != 'cmdline_normal' && neovim.mode != 'insert'"
   }
 ]
