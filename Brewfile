@@ -78,6 +78,7 @@ brew 'ansible'
 # terraform
 brew 'terraform'
 brew 'tflint'
+brew 'tfsec'
 
 # misc
 brew 'openssl'
