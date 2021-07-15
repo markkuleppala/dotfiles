@@ -965,33 +965,45 @@
       "command": "workbench.action.toggleZenMode"
     }
   ],
-  "workbench.editor.showTabs": true,
-  "gitlens.hovers.currentLine.over": "line",
+
   "editor.suggestSelection": "first",
-  "python.pythonPath": "/Users/timo/.pyenv/shims/python3",
-  "workbench.list.automaticKeyboardNavigation": false,
-  "python.languageServer": "Pylance",
-  "python.terminal.activateEnvironment": false,
   "editor.cursorBlinking": "solid",
   "editor.fontFamily": "'FiraCode-Retina', Hack, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
-  "files.exclude": {
-    "**/.classpath": true,
-    "**/.project": true,
-    "**/.settings": true,
-    "**/.factorypath": true
-  },
   "editor.minimap.enabled": false,
-  "workbench.activityBar.visible": true,
-  "jupyter.alwaysTrustNotebooks": true,
+  "editor.snippetSuggestions": "bottom",
+
+  "python.pythonPath": "/Users/timo/.pyenv/shims/python3",
+  "python.languageServer": "Pylance",
+  "python.terminal.activateEnvironment": false,
   "python.condaPath": "$HOME/.miniconda/bin/conda",
   "python.formatting.provider": "black",
   "python.insidersChannel": "off",
+  "python.showStartPage": false,
+
   "terminal.external.osxExec": "Alacritty.app",
-  "terminal.integrated.shell.linux": "/bin/zsh",
+  "terminal.integrated.profiles.linux": {
+    "zsh (login)": {
+      "path": "zsh",
+      "args": ["-l"]
+    }
+  },
+  "terminal.integrated.defaultProfile.linux": "zsh (login)",
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "terminal.integrated.cursorBlinking": true,
   "terminal.external.linuxExec": "/usr/bin/alacritty",
+
+  "emmet.showSuggestionsAsSnippets": true,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.enabled": false,
+  "git.autofetch": true,
+
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
   "workbench.colorCustomizations": {
     "[Default Dark+]": {
       "statusBar.background": "#2E2E2E",
@@ -1002,19 +1014,20 @@
       "tab.inactiveBackground": "#2E2E2E"
     }
   },
-  "emmet.showSuggestionsAsSnippets": true,
-  "gitlens.codeLens.enabled": false,
-  "git.autofetch": true,
+  "workbench.list.automaticKeyboardNavigation": false,
+  "workbench.editor.showTabs": true,
+  "workbench.activityBar.visible": true,
   "workbench.startupEditor": "newUntitledFile",
-  "python.showStartPage": false,
-  "editor.snippetSuggestions": "bottom",
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter.notebook.ipynb"
   },
-  "telemetry.enableTelemetry": false,
-  "telemetry.enableCrashReporter": false,
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
+
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
