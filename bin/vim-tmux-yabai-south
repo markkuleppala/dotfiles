@@ -1,7 +1,0 @@
-#!/usr/bin/env sh
-
-if [ $(tmux display-message -p '#{pane_at_bottom}') -ne 1 ]; then
-    tmux select-pane -D;
-else
-    yabai -m window --focus south || true;
-fi
