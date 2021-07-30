@@ -1,6 +1,6 @@
 {
   "vscode-neovim.neovimExecutablePaths.darwin": "/opt/homebrew/bin/nvim",
-  "vscode-neovim.neovimInitVimPaths.darwin": "$HOME/.config/nvim/utils/lv-vscode/init.vim",
+  "vscode-neovim.neovimInitVimPaths.darwin": "$HOME/.local/share/lunarvim/lvim/utils/lv-vscode/init.vim",
   "whichkey.sortOrder": "alphabetically",
   "whichkey.delay": 0,
   "whichkey.bindings": [
@@ -967,10 +967,8 @@
   ],
 
   "editor.suggestSelection": "first",
-  "editor.cursorBlinking": "solid",
   "editor.fontFamily": "'FiraCode-Retina', Hack, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
-  "editor.minimap.enabled": false,
   "editor.snippetSuggestions": "bottom",
 
   "python.pythonPath": "/Users/timo/.pyenv/shims/python3",
@@ -1019,7 +1017,7 @@
   "workbench.activityBar.visible": true,
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editorAssociations": {
-    "*.ipynb": "jupyter.notebook.ipynb"
+    "*.ipynb": "jupyter-notebook"
   },
 
   "files.exclude": {
@@ -1036,5 +1034,9 @@
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
   },
 }
