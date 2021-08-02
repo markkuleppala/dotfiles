@@ -62,6 +62,10 @@ brew 'hub'
 brew 'azure-cli'
 brew 'awscli'
 
+# docker
+cask 'docker'
+brew 'lazydocker'
+
 # yarn
 brew 'yarn'
 
@@ -135,10 +139,6 @@ cask 'telegram'
 
 # password manager
 cask 'keeweb'
-
-# docker
-cask 'docker'
-cask 'lazydocker'
 
 # dev
 cask 'insomnia'
