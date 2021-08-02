@@ -7,7 +7,7 @@ defaults write -globalDomain AppleScrollerPagingBehavior -bool true
 # System Preferences > General > Sidebar icon size: Medium
 defaults write -globalDomain NSTableViewDefaultSizeMode -int 2
 
-# General settings, disable dont smoothing
+# General settings, disable font smoothing
 defaults -currentHost write -g AppleFontSmoothing -int 0
 
 #----------------------------------------------------------------------------
