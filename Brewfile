@@ -1,4 +1,4 @@
-# taps
+# tap
 tap 'koekeishiya/formulae'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
@@ -40,6 +40,12 @@ brew 'fd'
 
 # ls and tree replacement
 brew 'exa'
+
+# better cat
+brew 'bat'
+
+# sed
+brew 'gnu-sed'
 
 # ag
 brew 'the_silver_searcher'
@@ -95,7 +101,7 @@ brew 'tree'
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Fonts
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 cask 'font-jetbrains-mono-nerd-font'
 cask 'font-meslo-lg-nerd-font'
@@ -116,8 +122,7 @@ cask 'visual-studio-code'
 brew 'cmacrae/formulae/spacebar'
 
 # utils
-cask 'alfred'
-cask 'ukulele'
+cask 'ukelele'
 
 # browsers
 cask 'google-chrome'
@@ -131,7 +136,10 @@ cask 'telegram'
 # password manager
 cask 'keeweb'
 
-# dev
+# docker
 cask 'docker'
+cask 'lazydocker'
+
+# dev
 cask 'insomnia'
 cask 'miniconda'
