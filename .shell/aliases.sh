@@ -24,7 +24,7 @@ alias c=clear
 alias o=open
 
 # vim
-alias vim="lvim"
+alias vim="nvim"
 
 # dotfiles management
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
