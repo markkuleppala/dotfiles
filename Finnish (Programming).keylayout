@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 2.2.1 on 2012-08-19 at 11:18 (GMT+03:00)-->
-<!--Last edited by Ukelele version 3.4.2.314 on 2020-11-08 at 21:02 (EET)-->
+<!--Last edited by Ukelele version 343 on 2021-08-05 at 17:37 (EEST)-->
 <keyboard group="126" id="-30057" name="Finnish (Programming)" maxout="1">
     <layouts>
         <layout first="0" last="0" mapSet="96c" modifiers="4c"/>
@@ -212,14 +212,14 @@
             <key code="19" output="&#x0022;"/>
             <key code="20" output="#"/>
             <key code="21" output="€"/>
-            <key code="22" output="^"/>
+            <key code="22" output="&#x0026;"/>
             <key code="23" output="%"/>
             <key code="24" output="`"/>
-            <key code="25" output="("/>
-            <key code="26" output="&#x0026;"/>
+            <key code="25" output=")"/>
+            <key code="26" output="/"/>
             <key code="27" output="?"/>
-            <key code="28" output="*"/>
-            <key code="29" output=")"/>
+            <key code="28" output="("/>
+            <key code="29" output="="/>
             <key code="30" output="}"/>
             <key code="31" action="14"/>
             <key code="32" action="15"/>
@@ -445,7 +445,7 @@
             <key code="26" output="|"/>
             <key code="27" output="="/>
             <key code="28" output="["/>
-            <key code="29" output="≈"/>
+            <key code="29" output="="/>
             <key code="30" action="4"/>
             <key code="31" output="å"/>
             <key code="32" output="ü"/>
@@ -459,11 +459,11 @@
             <key code="40" output="ª"/>
             <key code="41" output="ø"/>
             <key code="42" output="*"/>
-            <key code="43" output="‚"/>
+            <key code="43" output="&#x003C;"/>
             <key code="44" output="–"/>
             <key code="45" output="‘"/>
             <key code="46" output="’"/>
-            <key code="47" output="…"/>
+            <key code="47" output="&#x003E;"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" output=" "/>
             <key code="50" output="≤"/>
@@ -877,6 +877,7 @@
             <key code="7" output="&#x0018;"/>
             <key code="8" output="&#x0003;"/>
             <key code="9" output="&#x0016;"/>
+            <key code="10" output=""/>
             <key code="11" output="&#x0002;"/>
             <key code="12" output="&#x0011;"/>
             <key code="13" output="&#x0017;"/>
