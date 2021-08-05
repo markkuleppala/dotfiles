@@ -60,11 +60,13 @@ function config.whichkey()
         ["o"] = {"<Cmd>SymbolsOutline<CR>", "symbols outline"},
         ["b"] = {
             name = "+buffer",
-            [">"] = {"<Cmd>BufferMoveNext<CR>", "move next"},
-            ["<"] = {"<Cmd>BufferMovePrevious<CR>", "move prev"},
+            [">"] = {"<Cmd>BufferLineMoveNext<CR>", "move next"},
+            ["<"] = {"<Cmd>BufferLineMovePrev<CR>", "move prev"},
             ["b"] = {"<Cmd>BufferPick<CR>", "pick buffer"},
-            ["n"] = {"<Cmd>bnext<CR>", "next buffer"},
-            ["p"] = {"<Cmd>bprevious<CR>", "prev buffer"}
+            ["n"] = {"<Cmd>BufferLineCycleNext<CR>", "next buffer"},
+            ["p"] = {"<Cmd>BufferLineCyclePrev<CR>", "prev buffer"},
+            ["s"] = {"<Cmd>BufferLineSortByExtension<CR>", "sort tabs by extension"},
+            ["d"] = {"<Cmd>BufferLineSortByDirectory<CR>", "sort tabs by directory"}
         },
         ["p"] = {
             name = "+path",

@@ -13,4 +13,11 @@ local modules = {}
 --     your code
 -- }
 
+local ui_config = require("modules.global.configs.ui")
+
+modules['akinsho/nvim-bufferline.lua'] = {
+    config = ui_config.nvim_bufferline, 
+    requires = "kyazdani42/nvim-web-devicons"
+}
+
 return modules

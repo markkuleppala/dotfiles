@@ -16,12 +16,6 @@ modules["glepnir/dashboard-nvim"] = {
     config = ui_config.dashboard
 }
 
--- modules['glepnir/galaxyline.nvim'] = {
---     branch = 'main',
---     config = ui_config.galaxyline,
---     requires = 'kyazdani42/nvim-web-devicons'
--- }
-
 modules["lvim-tech/galaxyline.nvim"] = {
     event = {"VimEnter", "BufRead", "BufNewFile"},
     branch = "exclude_filetypes",

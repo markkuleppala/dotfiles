@@ -13,13 +13,13 @@ configs["_events"] = function()
         bufs = {
             {
                 "BufWinEnter", "*",
-                "setlocal formatoptions-=c formatoptions-=r formatoptions-=o showtabline=0 "
+                "setlocal formatoptions-=c formatoptions-=r formatoptions-=o "
             }, {
                 "BufRead", "*",
-                "setlocal formatoptions-=c formatoptions-=r formatoptions-=o showtabline=0 "
+                "setlocal formatoptions-=c formatoptions-=r formatoptions-=o "
             }, {
                 "BufNewFile", "*",
-                "setlocal formatoptions-=c formatoptions-=r formatoptions-=o showtabline=0 "
+                "setlocal formatoptions-=c formatoptions-=r formatoptions-=o "
             }, {"BufNewFile,BufRead", "*.ex", "set filetype=elixir"},
             {"BufNewFile,BufRead", "*.exs", "set filetype=elixir"},
             {"BufNewFile,BufRead", "*.graphql", "set filetype=graphql"},
