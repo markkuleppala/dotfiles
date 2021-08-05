@@ -1,5 +1,11 @@
 local keymaps = {}
 
+keymaps["insert"] = {
+    {"jk", "<Esc>"},
+    {"jj", "<Esc>"},
+    {"kj", "<Esc>"}
+}
+
 keymaps["normal"] = {
     {"<F11>", ":LvimHelper<CR>"}, -- LvimHelper
     {"<C-space>", ":CtrlSpace<CR>"}, -- CtrlSpace

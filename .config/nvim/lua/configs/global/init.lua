@@ -171,6 +171,8 @@ configs["_commands"] = function()
 end
 
 configs["_keymaps"] = function()
+    -- insert
+    funcs.keymaps("i", {noremap = false, silent = true}, keymaps.insert)
     -- normal
     funcs.keymaps("n", {noremap = false, silent = true}, keymaps.normal)
     -- visual
