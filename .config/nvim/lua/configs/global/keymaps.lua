@@ -32,6 +32,7 @@ keymaps["normal"] = {
     {"<S-m>", ":MarkdownPreviewToggle<CR>"}, -- Markdown preview toggle
     {"<S-f>", ":SnapFiles<CR>"}, -- Search files with Snap
     {"<S-t>", ":SnapGrep<CR>"}, -- Search word in files with Snap
+    {"<S-c>", ":CommentToggle<CR>"}, -- Comment toggle
     {"<A-j>", ":AnyJump<CR>"}, -- Any jump
     {"<A-v>", ":SymbolsOutline<CR>"}, -- Symbols outline
     {"<A-[>", ":foldopen<CR>"}, -- Fold open
@@ -39,17 +40,18 @@ keymaps["normal"] = {
     {"<A-.>", ":BookmarkToggle<CR>"}, -- Bookmark toggle
     {"<A-,>", ":Neoformat<CR>"}, -- Format code
     {"<A-s>", ":Spectre<CR>"}, -- Replace in multiple files
-    {"<A-/>", ":CommentToggle<CR>"}, -- Comment toggle
     {"<A-f>", ":LspFormatting<CR>"}, -- Lsp format code
     {"<A-t>", ":LspCodeAction<CR>"}, -- Lsp action
     {"<A-g>", ":LspReferences<CR>"}, -- Lsp references
     {"<A-d>", ":LspDeclaration<CR>"}, -- Lsp declaration
-    {"<A-p>", ":LspDefinition<CR>"}, -- Lsp definition
-    {"<A-h>", ":LspHover<CR>"}, -- Lsp hover
+    {"gd", ":LspDefinition<CR>"}, -- Lsp definition
+    {"gh", ":LspHover<CR>"}, -- Lsp hover
     {"<A-r>", ":LspRename<CR>"}, -- Lsp rename
     {"<A-n>", ":LspGoToNext<CR>"}, -- Lsp go to next
     {"<A-p>", ":LspGoToPrev<CR>"}, -- Lsp go to prev
-    {"<A-e>", ":LspTroubleToggle<CR>"} -- Lsp trouble toggle
+    {"<A-e>", ":LspTroubleToggle<CR>"}, -- Lsp trouble toggle
+    {"<Tab>", ":BufferLineCycleNext<CR>"}, -- Go to next tab
+    {"<S-Tab>", ":BufferLineCyclePrev<CR>"} -- Go to previous tab
 }
 
 keymaps["visual"] = {
@@ -60,7 +62,7 @@ keymaps["visual"] = {
     {"K", ":move '<-2<CR>gv-gv"}, -- Move up
     {"J", ":move '>+1<CR>gv-gv"}, -- Move down
     {"<A-j>", ":AnyJumpVisual<CR>"}, -- Any jump visual
-    {"<A-/>", ":CommentToggle<CR>"} -- Comment toggle
+    {"<S-c>", ":CommentToggle<CR>"} -- Comment toggle
 }
 
 return keymaps
