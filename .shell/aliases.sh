@@ -1,7 +1,3 @@
-# Attach to default tmux session if exists
-# else create it
-alias timo='tmux new-session -A -s timo'
-
 # use colors in coreutils utilities output
 alias tree='tree -a -C -l -q -I ".git"'
 

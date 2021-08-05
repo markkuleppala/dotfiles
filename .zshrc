@@ -1,6 +1,6 @@
 # Automatically attach to default tmux session
 if [ -z "$TMUX" ]; then
-    timo
+    main
 fi
 
 # Enable Powerlevel10k instant prompt.
