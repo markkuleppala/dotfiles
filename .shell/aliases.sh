@@ -4,9 +4,6 @@ alias tree='tree -a -C -l -q -I ".git"'
 # move to trash instead of rm
 alias rm=trash
 
-# ls with colors and icons
-alias lsd='exa --color always --icons -a -s type'
-
 # bat theme
 alias bat='bat --theme="Nord"'
 
