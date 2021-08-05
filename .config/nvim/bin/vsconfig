@@ -84,7 +84,7 @@ function choice_language {
                         do
                             case $opt in
                                 "Yes")
-                                    cp ~/.config/nvim/bin/debugers/vimspector/cpp/$FILE ./
+                                    cp ~/.config/nvim/bin/debuggerss/vimspector/cpp/$FILE ./
                                     break
                                     ;;
                                 "No")
@@ -97,7 +97,7 @@ function choice_language {
                             esac
                         done
                 else
-                    cp ~/.config/nvim/bin/debugers/vimspector/cpp/$FILE ./
+                    cp ~/.config/nvim/bin/debuggerss/vimspector/cpp/$FILE ./
                 fi
                 echo "File $FILE created in: '$PROJECT_DIRECTORY'"
                 echo ""
@@ -118,7 +118,7 @@ function choice_language {
                         do
                             case $opt in
                                 "Yes")
-                                    cp ~/.config/nvim/bin/debugers/vimspector/dart/$FILE ./
+                                    cp ~/.config/nvim/bin/debuggerss/vimspector/dart/$FILE ./
                                     break
                                     ;;
                                 "No")
@@ -131,7 +131,7 @@ function choice_language {
                             esac
                         done
                 else
-                    cp ~/.config/nvim/bin/debugers/vimspector/dart/$FILE ./
+                    cp ~/.config/nvim/bin/debuggerss/vimspector/dart/$FILE ./
                 fi
                 echo "File $FILE created in: '$PROJECT_DIRECTORY'"
                 echo ""
@@ -152,7 +152,7 @@ function choice_language {
                         do
                             case $opt in
                                 "Yes")
-                                    cp ~/.config/nvim/bin/debugers/vimspector/go/$FILE ./
+                                    cp ~/.config/nvim/bin/debuggerss/vimspector/go/$FILE ./
                                     break
                                     ;;
                                 "No")
@@ -165,7 +165,7 @@ function choice_language {
                             esac
                         done
                 else
-                    cp ~/.config/nvim/bin/debugers/vimspector/go/$FILE ./
+                    cp ~/.config/nvim/bin/debuggerss/vimspector/go/$FILE ./
                 fi
                 echo "File $FILE created in: '$PROJECT_DIRECTORY'"
                 echo ""
@@ -186,7 +186,7 @@ function choice_language {
                         do
                             case $opt in
                                 "Yes")
-                                    cp ~/.config/nvim/bin/debugers/vimspector/js-ts/$FILE ./
+                                    cp ~/.config/nvim/bin/debuggerss/vimspector/js-ts/$FILE ./
                                     break
                                     ;;
                                 "No")
@@ -199,7 +199,7 @@ function choice_language {
                             esac
                         done
                 else
-                    cp ~/.config/nvim/bin/debugers/vimspector/js-ts/$FILE ./
+                    cp ~/.config/nvim/bin/debuggerss/vimspector/js-ts/$FILE ./
                 fi
                 echo "File $FILE created in: '$PROJECT_DIRECTORY'"
                 echo ""
@@ -220,7 +220,7 @@ function choice_language {
                         do
                             case $opt in
                                 "Yes")
-                                    cp ~/.config/nvim/bin/debugers/vimspector/python/$FILE ./
+                                    cp ~/.config/nvim/bin/debuggerss/vimspector/python/$FILE ./
                                     break
                                     ;;
                                 "No")
@@ -233,7 +233,7 @@ function choice_language {
                             esac
                         done
                 else
-                    cp ~/.config/nvim/bin/debugers/vimspector/python/$FILE ./
+                    cp ~/.config/nvim/bin/debuggerss/vimspector/python/$FILE ./
                 fi
                 echo "File $FILE created in: '$PROJECT_DIRECTORY'"
                 echo ""
@@ -254,7 +254,7 @@ function choice_language {
                         do
                             case $opt in
                                 "Yes")
-                                    cp ~/.config/nvim/bin/debugers/vimspector/rust/$FILE ./
+                                    cp ~/.config/nvim/bin/debuggerss/vimspector/rust/$FILE ./
                                     break
                                     ;;
                                 "No")
@@ -267,7 +267,7 @@ function choice_language {
                             esac
                         done
                 else
-                    cp ~/.config/nvim/bin/debugers/vimspector/rust/$FILE ./
+                    cp ~/.config/nvim/bin/debuggerss/vimspector/rust/$FILE ./
                 fi
                 echo "File $FILE created in: '$PROJECT_DIRECTORY'"
                 echo ""
