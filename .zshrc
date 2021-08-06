@@ -1,12 +1,8 @@
-# Automatically attach to default tmux session
-if [ -z "$TMUX" ]; then
-    main
-fi
-
 # Enable Powerlevel10k instant prompt.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
+export POWERLEVEL9K_INSTANT_PROMPT=quiet
 
 # Oh-my-zsh
 export ZSH="$HOME/.oh-my-zsh"
