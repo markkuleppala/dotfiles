@@ -8,9 +8,6 @@ shell:
     - -c
     - "tmux attach || tmux new -s main"
 
-# Send ESC (\x1b) before characters when alt is pressed.
-alt_send_esc: true
-
 cursor:
   style:
     blinking: Always
@@ -173,46 +170,3 @@ key_bindings:
   - { key: Z,           mods: Alt,             chars: "\x1Bz"           }
   - { key: Z,           mods: Alt|Shift,       chars: "\x1BZ"           }
   - { key: Z,           mods: Alt|Shift,       chars: "\x1BZ"           }
-  - { key: Key1,        mods: Alt,             chars: "\x1B1"           }
-  - { key: Key1,        mods: Alt|Shift,       chars: "\x1B!"           }
-  - { key: Key2,        mods: Alt,             chars: "\x1B2"           }
-  - { key: Key2,        mods: Alt|Shift,       chars: "\x1B#"           }
-  - { key: Key3,        mods: Alt,             chars: "\x1B3"           }
-  - { key: Key3,        mods: Alt|Shift,       chars: "\x1B#"           }
-  - { key: Key4,        mods: Alt,             chars: "\x1B4"           }
-  - { key: Key4,        mods: Alt|Shift,       chars: "\x1B$"           }
-  - { key: Key5,        mods: Alt,             chars: "\x1B5"           }
-  - { key: Key5,        mods: Alt|Shift,       chars: "\x1B%"           }
-  - { key: Key6,        mods: Alt,             chars: "\x1B6"           }
-  - { key: Key6,        mods: Alt|Shift,       chars: "\x1B^"           }
-  - { key: Key7,        mods: Alt,             chars: "\x1B7"           }
-  - { key: Key7,        mods: Alt|Shift,       chars: "\x1B&"           }
-  - { key: Key8,        mods: Alt,             chars: "\x1B8"           }
-  - { key: Key8,        mods: Alt|Shift,       chars: "\x1B*"           }
-  - { key: Key9,        mods: Alt,             chars: "\x1B9"           }
-  - { key: Key9,        mods: Alt|Shift,       chars: "\x1B("           }
-  - { key: Key0,        mods: Alt,             chars: "\x1B0"           }
-  - { key: Key0,        mods: Alt|Shift,       chars: "\x1B)"           }
-  - { key: Minus,       mods: Alt,             chars: "\x1B-"           }
-  - { key: Minus,       mods: Alt|Shift,       chars: "\x1B_"           }
-  - { key: Equals,      mods: Alt,             chars: "\x1B="           }
-  - { key: Equals,      mods: Alt|Shift,       chars: "\x1B+"           }
-  - { key: LBracket,    mods: Alt,             chars: "\x1B["           }
-  - { key: LBracket,    mods: Alt|Shift,       chars: "\x1B{"           }
-  - { key: RBracket,    mods: Alt,             chars: "\x1B]"           }
-  - { key: RBracket,    mods: Alt|Shift,       chars: "\x1B}"           }
-  - { key: Backslash,   mods: Alt,             chars: "\x1B\\"          }
-  - { key: Backslash,   mods: Alt|Shift,       chars: "\x1B|"           }
-  - { key: Semicolon,   mods: Alt,             chars: "\x1B;"           }
-  - { key: Semicolon,   mods: Alt|Shift,       chars: "\x1B:"           }
-  - { key: Apostrophe,  mods: Alt,             chars: "\x1B'"           }
-  - { key: Apostrophe,  mods: Alt|Shift,       chars: "\x1B\""          }
-  - { key: Comma,       mods: Alt,             chars: "\x1B,"           }
-  - { key: Comma,       mods: Alt|Shift,       chars: "\x1B<"           }
-  - { key: Period,      mods: Alt,             chars: "\x1B."           }
-  - { key: Period,      mods: Alt|Shift,       chars: "\x1B>"           }
-  - { key: Slash,       mods: Alt,             chars: "\x1B/"           }
-  - { key: Slash,       mods: Alt|Shift,       chars: "\x1B?"           }
-  - { key: Grave,       mods: Alt,             chars: "\x1B`"           }
-  - { key: Grave,       mods: Alt|Shift,       chars: "\x1B~"           }
-alt_send_esc: false
