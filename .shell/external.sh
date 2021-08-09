@@ -9,7 +9,8 @@ eval "$(direnv hook zsh)"
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
-[ -s "$(brew --prefix)/opt/nvm/nvm.sh" ] && . "$(brew --prefix)/opt/nvm/nvm.sh" # This loads nvm
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
@@ -19,12 +20,8 @@ export PATH="$PATH:$HOME/.rvm/bin"
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init --path)"
-
-# Python packages
-export PATH="$PATH:$HOME/Library/Python/3.9/bin"
-
-# nvcode https://github.com/ChristianChiarulli/nvcode
-export PATH="$PATH:/Users/$USER/.config/nvim/utils/bin"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
 
 # keytimeout for exiting vim mode in tmux
 export KEYTIMEOUT=20
