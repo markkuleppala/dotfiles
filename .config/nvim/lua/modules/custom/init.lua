@@ -20,4 +20,8 @@ modules['akinsho/nvim-bufferline.lua'] = {
     requires = "kyazdani42/nvim-web-devicons"
 }
 
+modules['aserowy/tmux.nvim'] = {
+    config = ui_config.nvim_tmux, 
+}
+
 return modules

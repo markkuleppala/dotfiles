@@ -18,10 +18,6 @@ keymaps["normal"] = {
     {"<C-x>", "<C-w>c"}, -- Close current window
     {"<C-o>", "<C-w>o"}, -- Close other windows
     {"<C-d>", ":bdelete<CR>"}, -- BDelete
-    {"<C-h>", "<C-w>h"}, -- Move to window left
-    {"<C-l>", "<C-w>l"}, -- Move to window right
-    {"<C-j>", "<C-w>j"}, -- Move to window down
-    {"<C-k>", "<C-w>k"}, -- Move to window up
     {"<C-Left>", ":vertical resize -2<CR>"}, -- Resize width -
     {"<C-Right>", ":vertical resize +2<CR>"}, -- Resize width +
     {"<C-Up>", ":resize -2<CR>"}, -- Resize height -
