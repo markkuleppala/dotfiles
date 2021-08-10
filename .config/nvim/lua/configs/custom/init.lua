@@ -1,5 +1,18 @@
 local configs = {}
 
+local funcs = require "core.funcs"
+
+-- configs["custom_events"] = function()
+--     funcs.augroups({
+--         custom_bufs = {
+--             {"BufWritePre", "*", ":Neoformat"},
+--         }
+--     })
+-- end
+
+-- Remove function events from configs.global.init
+-- configs['events'] = false
+--
 -- Remove function events from configs.global.init
 -- configs['events'] = false
 
