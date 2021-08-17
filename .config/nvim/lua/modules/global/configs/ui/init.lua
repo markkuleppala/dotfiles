@@ -459,8 +459,6 @@ end
 
 function config.nvim_tmux()
     require("tmux").setup({
-        -- overwrite default configuration
-        -- here, e.g. to enable default bindings
         copy_sync = {
             -- enables copy sync and overwrites all register actions to
             -- sync registers *, +, unnamed, and 0 till 9 from tmux in advance
@@ -472,7 +470,7 @@ function config.nvim_tmux()
         },
         resize = {
             -- enables default keybindings (A-hjkl) for normal mode
-            enable_default_keybindings = true,
+            enable_default_keybindings = false,
         }
     })
 end
