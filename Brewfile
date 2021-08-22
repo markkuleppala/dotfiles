@@ -65,6 +65,7 @@ brew 'awscli'
 # docker
 cask 'docker'
 brew 'lazydocker'
+brew 'dive'
 
 # yarn
 brew 'yarn'
