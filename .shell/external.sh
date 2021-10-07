@@ -26,3 +26,5 @@ eval "$(pyenv virtualenv-init -)"
 # keytimeout for exiting vim mode in tmux
 export KEYTIMEOUT=20
 
+# Source tmux conf
+tmux source ~/.config/tmux/tmux.conf
