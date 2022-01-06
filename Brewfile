@@ -11,32 +11,32 @@ brew 'coreutils'
 # brew 'zsh-autosuggestions'
 
 # multiplexer
-brew 'tmux'
+# brew 'tmux'
 
 # better cat
 brew 'bat'
 
 # sed
-brew 'gnu-sed'
+# brew 'gnu-sed'
 
 # git + hub extension
 brew 'git'
-brew 'git-delta'
-brew 'hub'
+# brew 'git-delta'
+# brew 'hub'
 
 # docker
-cask 'docker'
-brew 'lazydocker'
-brew 'dive'
+# cask 'docker'
+# brew 'lazydocker'
+# brew 'dive'
 
 # yarn
-brew 'yarn'
+# brew 'yarn'
 
 # python
 brew 'python'
 
 # node
-brew 'node'
+# brew 'node'
 
 # misc
 brew 'openssl'
@@ -51,9 +51,12 @@ brew 'tree'
 # editor
 cask 'visual-studio-code'
 
+# mouse sidebuttons
+cask 'sensiblesidebuttons'
+
 # browsers
 cask 'google-chrome'
-cask 'firefox-developer-edition'
+cask 'firefox'
 
 # comms
 cask 'slack'
