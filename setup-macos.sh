@@ -21,10 +21,10 @@ defaults -currentHost write com.apple.screensaver idleTime -int 0
 defaults write com.apple.dock tilesize -int 36
 
 # System Preferences > Dock > Position:
-defaults write com.apple.dock orientation right
+defaults write com.apple.dock orientation left
 
 # System Preferences > Dock > Magnification:
-defaults write com.apple.dock magnification -bool true
+defaults write com.apple.dock magnification -bool false
 
 # System Preferences > Dock > Size (magnified):
 defaults write com.apple.dock largesize -int 54
@@ -50,22 +50,21 @@ defaults write com.apple.dock show-process-indicators -bool true
 # System Preferences > Dock > Show only active apps
 defaults write com.apple.dock static-only -bool true;
 
-
 #----------------------------------------------------------------------------
 
-# System Preferences > Mission Controll > Automatically rearrange Spaces based on most recent use
+# System Preferences > Mission Control > Automatically rearrange Spaces based on most recent use
 defaults write com.apple.dock mru-spaces -bool false
 
-# System Preferences > Mission Controll > Dashboard
+# System Preferences > Mission Control > Dashboard
 defaults write com.apple.dock dashboard-in-overlay -bool true
 
 #----------------------------------------------------------------------------
 
 # System Preferences > Keyboard
-defaults write NSGlobalDomain KeyRepeat -int 2
+# defaults write NSGlobalDomain KeyRepeat -int 2
 
 # System Preferences > Keyboard
-defaults write NSGlobalDomain InitialKeyRepeat -int 15
+# defaults write NSGlobalDomain InitialKeyRepeat -int 15
 
 #----------------------------------------------------------------------------
 
@@ -75,7 +74,7 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 # Finder > Preferences > Show hidden files
 defaults write com.apple.finder AppleShowAllFiles true
 
-# Finder > Preferences > Show wraning before changing an extension
+# Finder > Preferences > Show warning before changing an extension
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 
 # Finder > View > As List
@@ -86,7 +85,7 @@ defaults write com.apple.finder ShowPathbar -bool true
 
 #----------------------------------------------------------------------------
 # VSCode > Correct press and hold behaviour for vim
-defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+# defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 
 #----------------------------------------------------------------------------
 
@@ -94,6 +93,5 @@ defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 for app in "Dock" "Finder"; do
   killall "${app}" > /dev/null 2>&1
 done
-
 
 echo "MacOS setup complete."

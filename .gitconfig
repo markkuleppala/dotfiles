@@ -1,7 +1,7 @@
 [user]
-	name = Timo Riski
-	email = 25483483+rriski@users.noreply.github.com
-    username = rriski
+	name = 
+	email = 
+    username = 
 
 [core]
     excludesfile = ~/.gitignore

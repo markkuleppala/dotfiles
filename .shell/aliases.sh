@@ -8,16 +8,13 @@ alias rm=trash
 alias bat='bat --theme="Nord"'
 
 # use bat instead of cat
-alias cat='bat -pp'
+# alias cat='bat'
 
 # quick clear
-alias c=clear
+# alias c=clear
 
 # quick open
-alias o=open
-
-# vim
-alias vim="nvim"
+# alias o=open
 
 # dotfiles management
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
