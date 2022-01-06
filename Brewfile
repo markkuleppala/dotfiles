@@ -64,5 +64,9 @@ cask 'slack'
 cask 'discord'
 cask 'telegram'
 
+# players
+cask 'vlc'
+cask 'spotify'
+
 # password manager
 cask '1password'
