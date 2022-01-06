@@ -50,6 +50,7 @@ brew 'tree'
 
 # editor
 cask 'visual-studio-code'
+cask 'sublime-text'
 
 # mouse sidebuttons
 cask 'sensiblesidebuttons'
