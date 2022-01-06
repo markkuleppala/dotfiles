@@ -52,6 +52,10 @@ defaults write com.apple.dock static-only -bool true;
 
 #----------------------------------------------------------------------------
 
+defaults write com.apple.swipescrolldirection -bool false;
+
+#----------------------------------------------------------------------------
+
 # System Preferences > Mission Control > Automatically rearrange Spaces based on most recent use
 defaults write com.apple.dock mru-spaces -bool false
 
