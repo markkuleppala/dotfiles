@@ -1,5 +1,5 @@
 # System Preferences > General > Appearance
-defaults write -globalDomain AppleInterfaceStyleSwitchesAutomatically -bool true
+defaults write -globalDomain AppleInterfaceStyleSwitchesAutomatically -bool false
 
 # System Preferences > General > Click in the scrollbar to: Jump to the spot that's clicked
 defaults write -globalDomain AppleScrollerPagingBehavior -bool true
