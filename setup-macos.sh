@@ -48,7 +48,7 @@ defaults write com.apple.dock autohide-delay -float 0
 defaults write com.apple.dock show-process-indicators -bool true
 
 # System Preferences > Dock > Show only active apps
-defaults write com.apple.dock static-only -bool true;
+#defaults write com.apple.dock static-only -bool true;
 
 #----------------------------------------------------------------------------
 
