@@ -25,7 +25,7 @@ brew 'git'
 # brew 'hub'
 
 # docker
-# cask 'docker'
+cask 'docker'
 # brew 'lazydocker'
 # brew 'dive'
 
@@ -70,3 +70,8 @@ cask 'spotify'
 
 # password manager
 cask '1password'
+
+cask 'datagrip'
+cask 'grammarly'
+cask 'microsoft-teams'
+cask 'todoist'
