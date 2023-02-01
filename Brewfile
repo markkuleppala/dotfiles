@@ -6,9 +6,9 @@
 brew 'coreutils'
 
 # shell
-# brew 'zsh'
-# brew 'zsh-syntax-highlighting'
-# brew 'zsh-autosuggestions'
+brew 'zsh'
+brew 'zsh-syntax-highlighting'
+brew 'zsh-autosuggestions'
 
 # multiplexer
 # brew 'tmux'
@@ -63,6 +63,7 @@ cask 'firefox'
 cask 'slack'
 cask 'discord'
 cask 'telegram'
+cask 'grammarly'
 
 # players
 cask 'vlc'
@@ -72,7 +73,6 @@ cask 'spotify'
 cask '1password'
 
 cask 'datagrip'
-cask 'grammarly'
 cask 'microsoft-teams'
 cask 'todoist'
 brew 'jupyterlab'
