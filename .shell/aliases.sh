@@ -21,3 +21,7 @@ alias brewup='brew update && brew upgrade'
 
 # dotfiles management
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+# python and pip aliases
+python=python3
+pip=pip3

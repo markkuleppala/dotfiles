@@ -10,9 +10,6 @@ brew 'zsh'
 brew 'zsh-syntax-highlighting'
 brew 'zsh-autosuggestions'
 
-# multiplexer
-# brew 'tmux'
-
 # better cat
 brew 'bat'
 
@@ -36,13 +33,15 @@ cask 'docker'
 brew 'python'
 
 # node
-# brew 'node'
+brew 'node'
 
 # misc
 brew 'openssl'
 brew 'jq'
 brew 'exiftool'
 brew 'tree'
+brew 'trash'
+brew 'wget'
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Applications
